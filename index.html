@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Przeliczanie walut</title>
+
+    <style type="text/css">
+        body
+		{
+			font-family: 'Courier New', monospace;
+			font-size: 130%;  
+			color: black;
+            background-color: aqua;
+            
+        }
+        #walp
+         {
+            background: rgb(56, 170, 61);
+            margin: 0 auto;
+            padding: 50px 55px 50px 55px;
+            width: 300px;
+            
+         }
+        .tekst
+        {
+            position:static; 
+            color: black; 
+            bottom: 0px;
+            background-color: chartreuse;
+
+        }
+        .tytwalp
+        {
+            background: rgb(80, 119, 82);
+            margin: 0 auto;
+            padding: 25px 75px 25px 75px;
+            width: 300px;
+            height: 50px;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+    
+    
+    </style>
+
+    <script type="text/javascript">
+    function walp()
+    {
+        var wal1 = document.getElementById("waluta1").value;
+        console.log(wal1);
+        var wal2 = document.getElementById("waluta2").value;
+        console.log(wal1);
+        var ilo = document.getElementById("ilość").value;
+        console.log(ilo);
+        var wynik=document.getElementById("newilość");
+        console.log(wynik);
+        if(wal1 == "PLN" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.5;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "pln")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 5.21;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.11;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 3.69;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.58;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.44;
+            
+
+
+        }
+        else if(wal1 == "PLN" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.44;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "eur")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.65;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.76;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 1.05;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.86;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.05;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 1.75;
+            
+
+
+        }
+        else if(wal1 == "EUR" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.51;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 0.98;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 1.66;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "gbp")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 5.68;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.13;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 1.34;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.07;
+            
+
+
+        }
+        else if(wal1 == "GBP" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.15;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.34;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 8.43;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "chf")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.6;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 3.75;
+            
+
+
+        }
+        else if(wal1 == "CHF" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 3.13;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.34;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.07;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 2.96;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "usd")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 3.05;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 1.01;
+            
+
+
+        }
+        else if(wal1 == "USD" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "cny")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "CNY" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "sek")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal1 == "SEK" && wal2 == "try")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "eur")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "pln")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "gbp")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "chf")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "usd")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "cny")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "sek")
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal1 == "TRY" && wal2 == "try")
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "EUR"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "eur" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "PLN"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "pln" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "GBP"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "gbp" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "CHF"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "chf" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "USD"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "usd" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "CNY"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "cny" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "SEK"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+        else if(wal2 == "sek" && wal1 == "TRY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "PLN"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "EUR"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "GBP"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "CHF"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "USD"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "CNY"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "SEK"  )
+        {
+            var ilość=document.getElementById("newilość");
+            wynik.innerHTML=ilo * 4.05;
+            
+
+
+        }
+        else if(wal2 == "try" && wal1 == "TRY"  )
+        {
+            alert('Musisz wybrać różne waluty!');
+            
+
+
+        }
+
+
+
+
+
+        
+        
+    }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+
+</head>
+
+<body >
+    
+    <div class="tytwalp">
+        <p><center>Przelicznik walut.</center></p>
+        
+        
+        
+        
+        
+        </div>
+<form id="walp">
+
+    
+    <div>
+        
+        Mam: <input style="width: 40%;" type=number id=ilość value=0 min="0" >
+        <br>
+        <select id="waluta1">
+            <option value="PLN" id="PLN">Polski złoty (PLN)</option>
+            <option value="EUR" id="EUR">Euro (EUR)</option>
+            <option value="GBP" id="GBP">Funt brystyjski (GBP)</option>
+            <option value="CHF" id="CHF">Frank szwajcarski (CHF)</option>
+            <option value="USD" id="USD">Dolar amerykańśki (USD)</option>
+            <option value="CNY" id="CNY">Juan chiński (CNY)</option>
+            <option value="SEK" id="SEK">Korona szwedzka (SEK)</option>
+            <option value="TRY" id="TRY">Lira turecka (TRY)</option>
+            
+
+
+
+
+        </select>
+        <select id="waluta2">
+            <option value="eur" id="eur">Euro (EUR)</option>
+            <option value="pln" id="pln">Polski złoty (PLN)</option>
+            <option value="gbp" id="gbp">Funt brystyjski (GBP)</option>
+            <option value="chf" id="chf">Frank szwajcarski (CHF)</option>
+            <option value="usd" id="usd">Dolar amerykańśki (USD)</option>
+            <option value="cny" id="cny">Juan chiński (CNY)</option>
+            <option value="sek" id="sek">Korona szwedzka (SEK)</option>
+            <option value="try" id="try">Lira turecka (TRY)</option>
+
+
+
+
+        </select>
+
+
+         <button type="button" onClick="walp()">Sprawdź</button>
+         <p>Ilość: </p>
+               <p id="newilość">0</p>
+    </div>
+</form>
+
+
+
+<div class="tekst">
+    <center>Na tej stronie zawarty jest przelicznik walut. 
+            Wpisz ile masz pieniędzy, wybierz walutę jaką dysponujesz, 
+            następnie walutę wyjściową i sprawdź jaką kwotą dysponujesz w innym kraju. 
+            Pamiętaj o zaznaczeniu różnych walut.</center>
+
+
+</div>
+
+</body>
+
+
+
+</html>
